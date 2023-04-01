@@ -35,4 +35,5 @@ jobs:
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
+          repository: argocd-deployment
           github_token: ${{ secrets.TEST }}
